@@ -22,7 +22,7 @@ export default function Header() {
                 <div className='mt-1 text-2xl font-bold text-white'>
                     <h1>Punit Dixit</h1>
                 </div>
-                <ul className={click ? 'hidden md:flex flex-wrap md:items-center md:mt-2 md:gap-8 left-0 mt-44 bg-gray-400 ' : 'flex flex-col border-2 border-gray-500 justify-between gap-2 p-5 min-w-56   md:flex md:flex-row md:items-center md:mt-2 md:gap-8 md:p-0   mt-44 bg-gray-400 '}>
+                <ul className={click ? 'hidden md:flex flex-wrap md:items-center md:mt-2 md:gap-8 left-0 mt-44 bg-gray-400 ' : 'flex flex-col  justify-between gap-2 p-5 min-w-56   md:flex md:flex-row md:items-center md:mt-2 md:gap-8 md:p-0   mt-44 bg-gray-400 '}>
                     <li className='cursor-pointer hover:text-orange-400 font-semibold'>
                         <Link to="hero" spy={true} smooth={true} hashSpy={true} offset={50} duration={500} onClick={closemenu} >Home</Link>
                     </li>
